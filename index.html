@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="THE EXAM ENGINEER — free subject-wise online practice tests for technical examinations.">
+  <title>THE EXAM ENGINEER | Online Test Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="The Exam Engineer home">
+      <span class="brand-mark">TE</span>
+      <span><strong>THE EXAM ENGINEER</strong><small>ONLINE TEST PORTAL</small></span>
+    </a>
+    <a class="telegram-link" href="https://t.me/the_exam_engineer" target="_blank" rel="noopener">Telegram ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> YOUR PRACTICE HUB</div>
+      <h1>Prepare. Practice.<br><span>Perform.</span></h1>
+      <p>Subject-wise tests, focused practice and smarter preparation — all in one place.</p>
+      <div class="hero-meta"><span>✦ Curated practice</span><span>✦ Mobile friendly</span><span>✦ Free access</span></div>
+    </section>
+
+    <section class="toolbar" aria-label="Find tests">
+      <label class="searchbox">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search tests, subjects or topics..." autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <div class="filters">
+        <select id="examFilter" aria-label="Filter by examination">
+          <option value="all">All examinations</option>
+        </select>
+        <select id="languageFilter" aria-label="Filter by language">
+          <option value="all">All languages</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Both">English + Hindi</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="results-heading">
+      <div><div class="eyebrow">TEST LIBRARY</div><h2>Choose your practice</h2></div>
+      <span id="resultCount" class="count">0 tests</span>
+    </section>
+
+    <div id="testLibrary" class="library" aria-live="polite"></div>
+    <div id="emptyState" class="empty hidden">
+      <div class="empty-icon">⌕</div><h3>No tests found</h3>
+      <p>Try another search term or change the filters.</p>
+      <button id="resetFilters" class="text-button">Clear filters</button>
+    </div>
+
+    <section class="howto">
+      <div class="howto-icon">＋</div>
+      <div><h3>New tests will be added regularly</h3><p>Bookmark this page and check the Telegram channel for updates.</p></div>
+      <a href="https://t.me/the_exam_engineer" target="_blank" rel="noopener">Join channel ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">THE EXAM ENGINEER</div>
+    <p>Practice with purpose. Improve with every attempt.</p>
+    <small>Independent educational resource. Always check the test instructions before attempting.</small>
+  </footer>
+  <script src="tests.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
