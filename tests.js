@@ -57,5 +57,33 @@ const TESTS = [
     language: "Both",
     englishUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET3.html",
     hindiUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET3.html"
-  }
-];
+  }, 
+  // UPSSSC JE MAINS 2026
+
+{
+  exam: "UPSSSC JE Mains 2026",
+  subject: "Mechanical",
+  title: "Thermodynamics — Set 1",
+  description: "25 PYQ Trend-based & Conceptual MCQs. 30 Minutes. +1 / -0.25 marking.",
+  language: "Both",
+  englishUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/THERMO_SET1.html",
+  hindiUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/THERMO_SET1.html"
+},
+{
+  exam: "UPSSSC JE Mains 2026",
+  subject: "Mechanical",
+  title: "Thermodynamics — Set 2",
+  description: "25 PYQ Trend-based & Conceptual MCQs. 30 Minutes. +1 / -0.25 marking.",
+  language: "Both",
+  englishUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/THERMO_SET2.html",
+  hindiUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/THERMO_SET2.html"
+},
+{
+  exam: "UPSSSC JE Mains 2026",
+  subject: "Mechanical",
+  title: "IC Engine — Set 1",
+  description: "25 PYQ Trend-based & Conceptual MCQs. 30 Minutes. +1 / -0.25 marking.",
+  language: "Both",
+  englishUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/IC_ENGINE_SET1.html",
+  hindiUrl: "https://theexamengineer1-sp.github.io/UPSSSC-JE/IC_ENGINE_SET1.html"
+}
