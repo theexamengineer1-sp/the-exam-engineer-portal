@@ -1,4 +1,6 @@
 const TESTS = [
+  // WELDING TESTS
+
   {
     exam: "RRB JE CBT-2",
     subject: "Welding",
@@ -25,5 +27,35 @@ const TESTS = [
     language: "Both",
     englishUrl: "https://theexamengineer1-sp.github.io/RRB-JE-CBT2/WELDING_SET3.html",
     hindiUrl: "https://theexamengineer1-sp.github.io/RRB-JE-CBT2/WELDING_SET3.html"
+  },
+
+  // ENVIRONMENT TESTS
+
+  {
+    exam: "RRB JE CBT-2",
+    subject: "Environment",
+    title: "Environment Smart MCQ — Set 1",
+    description: "Chapter 1: Basics of Environment. 25 PYQ-based and conceptual questions.",
+    language: "Both",
+    englishUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/environment-set-1.html",
+    hindiUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/environment-set-1.html"
+  },
+  {
+    exam: "RRB JE CBT-2",
+    subject: "Environment",
+    title: "Environment Smart MCQ — Set 2",
+    description: "Chapter 2 & 3: Pollution (Effects & Control) + Air Pollution. 25 PYQ-based and conceptual questions.",
+    language: "Both",
+    englishUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET2.html",
+    hindiUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET2.html"
+  },
+  {
+    exam: "RRB JE CBT-2",
+    subject: "Environment",
+    title: "Environment Smart MCQ — Set 3",
+    description: "Chapter 4 & 5: Water & Soil Pollution + Noise Pollution. 25 PYQ-based and conceptual questions.",
+    language: "Both",
+    englishUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET3.html",
+    hindiUrl: "https://theexamengineer1-sp.github.io/ENVIRONMENT-RRB-JE-CBT2/ENVIRONMENT_SET3.html"
   }
 ];
